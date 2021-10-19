@@ -6,7 +6,7 @@ $TituloGrande = "Nazca";
 $arregloLugares = array("Acueductos","Cultura","Tour Civitatis","Reservas","Lineas Nazca","Sky Arena");
 
 
-//$url ="https://www.utp.edu.pe/";
+$linkViaje ="https://www.facebook.com/Venture-and-Travel-485733742184777/";
 //$today=date('d/m/y');
 
 //extras
@@ -14,6 +14,7 @@ $redactado="Redactado por: ";
 $categorys="categoria";
 $category="Turismo";
 $autor="Raul Chavez";
+$contacto=939302859;
 
 
 //menus
@@ -432,6 +433,8 @@ $arregloActFavoritas = array("Adrenalina En Arena","Sky","Bote");
                                         <li>
                                             <strong><?php echo $redactado ;?></strong>
                                             <?php echo $autor ;?>
+                                            echo "<br><br>";
+                                            <?php echo $contacto ;?>
                                         </li>
                                         <li>
                                             <strong><?php echo $category ;?></strong>
@@ -470,7 +473,7 @@ $arregloActFavoritas = array("Adrenalina En Arena","Sky","Bote");
                                     <ul class="list-inline">
                                         <li>
                                             <strong><?php echo $redactado ;?></strong>
-                                            <?php echo $autor ;?>
+                                            <?php echo $autor ;?><?php echo $contacto ;?>
                                         </li>
                                         <li>
                                             <strong><?php echo $category ;?></strong>
@@ -509,7 +512,7 @@ $arregloActFavoritas = array("Adrenalina En Arena","Sky","Bote");
                                     <ul class="list-inline">
                                         <li>
                                             <strong><?php echo $redactado ;?></strong>
-                                            <?php echo $autor ;?>
+                                            <?php echo $autor ;?><?php echo $contacto ;?>
                                         </li>
                                         <li>
                                             <strong><?php echo $category ;?></strong>
